@@ -1,0 +1,44 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+
+.quadrado{
+    display: flex;
+    width: 800px;
+    height: 550px;
+    background-color: #c4c4c4;
+    border-radius: 20px;
+   
+}
+
+
+
+.conteudo{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:linear-gradient(45deg,#e1e1e1, #4b2a17)
+}
+
+.left{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.right{
+    width: 50%;
+}
+
+img{
+    width: 75%;
+    border-radius: 10px;
+}
